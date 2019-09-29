@@ -1,0 +1,21 @@
+name: ml_notes
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pandas
+  - numpy
+  - matplotlib
+  - ipython
+  - seaborn
+  - jupyter
+  - scikit-learn
+  - pip
+  - tqdm
+  - cython
+  - feather-format
+  - psutil
+  - pytest
+  - pyyaml
+  - xlrd
