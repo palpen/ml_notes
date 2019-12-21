@@ -2,6 +2,7 @@ name: ml_notes
 channels:
   - defaults
   - conda-forge
+  - plotly
 dependencies:
   - python=3.7
   - pandas
@@ -19,5 +20,6 @@ dependencies:
   - pytest
   - pyyaml
   - xlrd
+  - plotly=4.4.1
   - pip:
     - treeinterpreter
