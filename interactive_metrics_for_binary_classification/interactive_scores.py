@@ -103,8 +103,8 @@ sliders = [
     dict(
         active=10,
         currentvalue={
-            "prefix": "Threshold: ",
-            "font": {"size": 15}
+            "prefix": "Set threshold: ",
+            "font": {"size": 18}
         },
         pad={"t": 0, "b": 0},
         x=0,            # horizontal position of slider
