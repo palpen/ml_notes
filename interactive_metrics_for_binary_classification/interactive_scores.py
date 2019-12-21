@@ -62,15 +62,16 @@ for i in df.iterrows():
                 line_color='darkslategray',
                 fill_color='lightskyblue',
                 align=['left', 'center'],
-                height=25
+                font_size=22,
+                height=50
             ),
             cells=dict(
                 values=data,
                 line_color='darkslategray',
                 fill=dict(color=['lightgrey', 'white']),
                 align=['left', 'center'],
-                font_size=12,
-                height=30
+                font_size=22,
+                height=40
             )
         )
     )
@@ -101,10 +102,13 @@ for i in range(len(fig.data)):
 sliders = [
     dict(
         active=10,
-        currentvalue={"prefix": "Threshold: "},
+        currentvalue={
+            "prefix": "Threshold: ",
+            "font": {"size": 15}
+        },
         pad={"t": 0, "b": 0},
         x=0,            # horizontal position of slider
-        y=.7,           # vertical position of slider
+        y=.60,           # vertical position of slider
         steps=steps,
         len=.4          # length of slider
     )
