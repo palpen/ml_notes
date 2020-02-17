@@ -23,5 +23,7 @@ dependencies:
   - pyyaml
   - xlrd
   - plotly=4.4.1
+  - category_encoders
   - pip:
     - treeinterpreter
+    - Kaggler
